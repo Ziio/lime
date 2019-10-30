@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row} from '../../components/Grid';
-
+import RaimuLogo from '../../Images/RaimuLogo.jpg';
 
 class Intro extends Component {
 
@@ -10,7 +10,7 @@ class Intro extends Component {
 
         <Container>
             <Row>
-                <div id='logo'></div>
+                <img src={RaimuLogo} alt="website logo" />
             </Row>
         </Container>
 
