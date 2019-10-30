@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row} from '../../components/Grid';
 
 
-class intro extends Component {
+class Intro extends Component {
 
     render() {
 
@@ -19,4 +19,4 @@ class intro extends Component {
 
 }
 
-export default intro;
+export default Intro;
